@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@500 & display=swap');
+
+@font-face {
+    font-family: PointerPanther;
+    src: url(PointPanther\ DEMO.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    font-size: 1.2em;
+    align-content: center;
+    background-color: #faeded;
+}
+
+header{
+    padding: 50px;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom, #ffc13b, #f8b420
+    );
+}
+
+img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+strong {
+    display: block;
+    padding: 10px;
+    text-align: right;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+h1{
+    font-family: 'PointerPanther';
+    font-size: 2.5em;
+    padding: 20px;
+}
+#h1 {
+    font-family: 'PointerPanther';
+    color: white;
+}
+
+h2 {
+    color: #f0b63a;
+}
+
+h3 {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ddba45;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}
+
+footer{
+    clear: both;
+    padding: 40px;
+    text-align: center;
+    background-color: #fd8080bd;
+}
+
+#menu-lateral {
+    margin-top: 20px;
+    width: 30%;
+    float: right;
+}
+
+.post-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    padding: 20px;
+    width: 64%;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #afaeae83;
+}
+
+.recentes, .categorias{
+    padding: 10px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #afaeae83;
+}
+
+.categorias {
+    margin-top: 20px;
+}
+
+.categorias a {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #faeded;
+}
+
+.recentes p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.a-background {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.a-background:hover {
+    color: red;
+    background-color: white;
+}
+
